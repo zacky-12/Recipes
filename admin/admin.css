@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+li{
+    list-style-type: none;
+    float: right;
+    padding-right: 2%;
+    
+}
+h1,h2{
+    color: #e09f3e;
+}
+.main{
+    top: 100px;
+    align-content: center;
+    align-self: center;
+    margin: auto;
+    width: 30%;
+    padding-top: 100px;
+}
+.author{
+    align-self: flex-end;
+    padding-left:20%;
+    justify-content: flex-end;
+    width: 20%;
+    background-color: #6f523b;
+}
+h1,h2{
+    text-align: center;
+    font-family: fantasy;
+    color:E09540;
+}
+.nav{
+    background-color: gold;
+}
+.dropbtn{
+    font-size: larger;
+}
+.dropdwn{
+    display: none;
+    position: absolute;
+}
+li:hover .dropdwn{
+    display: block;
+}
+.edit{
+    text-align: center;
+}
+table{
+    align-self: center;
+    border-radius: 3px;
+    border: 3px inset;
+    background-color: #6f523b;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+tr{
+    color: white;
+    border: rgb(171, 185, 202);
+    width: 100%;
+    left: 5px;
+    right: 5px;
+}
+td,th{
+    margin-top: 5px;
+    border-right:inset;
+    border-bottom: outset;
+}
+.button{
+    color: rgb(175, 11, 224);
+    background-color: chartreuse;
+}
+.button:hover{
+    
+    background-color: chocolate;
+    color: black;
+    padding:2px;
+}
+.header{
+    background-color: rgb(206, 163, 22);
+    border: solid black;
+    height: 80px;
+}
+ul{
+    background-color: cyan;
+}
+input{
+    background-color: cadetblue;
+}
+a:visited{
+color: hsl(155, 91%, 54%);
+}
+a:link{
+    color: rgb(19, 238, 238);
+}
+.text{
+    color: white;
+    font-weight: bold;
+}
+.left{
+    float:left;
+    align-self: normal;
+}
+.sigh{
+    padding-left: 10%;
+    padding-top: 10%;
+    float: left;
+}
+h3{
+    font-weight:bolder;
+    font-size:xx-large;
+    margin-top: 10px;
+}
+p{
+    text-align: center;
+}
+.form{
+    padding-top: 10%;
+    padding-right: 10%;
+    float: right;
+}
+p{
+    color: whitesmoke;
+}
+.right{
+    float: left;
+    border-right: ridge;
+    border-bottom: inset;
+    border-top: outset;
+}
+.top{
+    margin-top: 10px;
+}
+strong{
+    color: #E9D66B;
+}
+h4{
+    font-family: sans-serif;
+    color: #dce1f9;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+}
+.small{
+    width: fit-content;
+}
